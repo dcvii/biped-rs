@@ -1,0 +1,9 @@
+[package]
+name = "biped-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aws-sdk-s3 = "0.28.0"
+aws-config = "0.56.1"
+tokio = { version = "1.28.0", features = ["full"] }
